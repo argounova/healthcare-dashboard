@@ -215,4 +215,4 @@ def update_admission(chart_type, selected_condition):
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=8080, debug=False)
